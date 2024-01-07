@@ -1,0 +1,12 @@
+.custom-swal {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+}
+
+.swal2-popup .swal2-content {
+    /* Apply blur effect to the white background */
+    filter: blur(5px);
+}
