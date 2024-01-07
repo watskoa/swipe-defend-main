@@ -1,9 +1,7 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-    baseURL: 'https://e-credit-monitoring-server.vercel.app',
-    // baseURL: 'https://swipe-defend-qbzdc17lb-watskoas-projects.vercel.app',
-    // baseURL: 'http://localhost:5000',
+    baseURL: 'https://swipe-defend.vercel.app',
 });
 
 const useAxiosPublic = () => {
